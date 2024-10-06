@@ -22,10 +22,15 @@ const App = () => {
   ]);
 
   return (
-    <div className="app">
+    <div className="bg-gradient-to-r from-sky-900 to-black">
       <header className="text-3xl">
         <div className="flex justify-center py-4">
-          <h1 className="text-7xl">Party Animal</h1>
+          <h1
+            className="text-8xl font-thin"
+            style={{ textShadow: "8px 8px 8px black" }}
+          >
+            Party Animal 🥳
+          </h1>
         </div>
 
         <div className="flex justify-center space-x-4 py-2">

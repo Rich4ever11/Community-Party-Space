@@ -37,14 +37,28 @@ const LocationEvents = (props) => {
     })();
   }, []);
 
+  const handleCountDownFunctionality = (seconds) => {
+    const now = new Date();
+    const futureDate = new Date(now.getTime() + seconds * 1000);
+
+    const diff = futureDate - now;
+
+    const years = Math.floor(diff / (1000 * 60 * 60 * 24 * 365));
+    const days = Math.floor(
+      (diff % (1000 * 60 * 60 * 24 * 365)) / (1000 * 60 * 60 * 24)
+    );
+    const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+    const remainingSeconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+    return `Time Remaining - ${years} years ${days} days ${hours} hours ${minutes} minutes ${remainingSeconds} seconds`;
+  };
+
   return (
     <div className="">
       {location && (
         <div className="max-w-full">
-          <a
-            href="#"
-            class="flex basis-full max-w-full  items-center bg-black border border-gray-200 rounded-lg shadow md:flex-row hover:bg-gray-100 dark:border-gray-700 dark:bg-black dark:hover:bg-gray-700"
-          >
+          <a class="flex basis-full max-w-full  items-center bg-black border border-gray-200 rounded-lg shadow md:flex-row hover:bg-gray-100 dark:border-gray-700 dark:bg-black dark:hover:bg-gray-700">
             <img
               class="object-cover w-full rounded-t-lg h-full md:w-48 md:rounded-none md:rounded-s-lg"
               src="https://images.unsplash.com/photo-1485872299829-c673f5194813?q=80&w=2054&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -94,7 +108,7 @@ const LocationEvents = (props) => {
             <div className="flex justify-center">
               <img
                 class="w-32 h-24 mb-3 rounded-full shadow-lg"
-                src="https://images.unsplash.com/photo-1643113231904-ea2af9b4ebcb?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                src="/public/assets/event.avif"
                 alt="Bonnie image"
               />
             </div>
@@ -107,6 +121,11 @@ const LocationEvents = (props) => {
             <div className="flex justify-center">
               <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
                 {event.description}
+              </p>
+            </div>
+            <div className="max-w-full">
+              <p className="text-sm text-white font-thin">
+                {handleCountDownFunctionality(event.event_time_seconds)}
               </p>
             </div>
           </div>

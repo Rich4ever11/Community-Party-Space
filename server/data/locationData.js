@@ -7,8 +7,8 @@ export const locations = [
     city: "	Minneapolis",
     postal_code: "55403",
     country: "United States",
-    longitude: 44.978,
-    latitude: 93.27594,
+    longitude: 93.27594,
+    latitude: 44.978,
   },
   {
     name: "9:30 Club",
