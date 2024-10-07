@@ -14,7 +14,7 @@ The following **required** functionality is completed:
 
 - [x] **The web app uses React to display data from the API**
 - [x] **The web app is connected to a PostgreSQL database, with an appropriately structured Events table**
-  - [ ] **NOTE: Your GIF or a screenshot added to this README must include a view of your Railway database that shows the contents of the table used by your app**
+  - [x] **NOTE: Your GIF or a screenshot added to this README must include a view of your Railway database that shows the contents of the table used by your app**
 - [x] **The web app displays the title of the app**
 - [x] **A visual interface allows the user to select a Location they would like to view**
 - [x] **Clicking on a Location shows a list of all items from the Events table that corresponds to that Location**
@@ -22,8 +22,8 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-- [ ] An additional page shows all possible `Events` that the user can sort and filter by `Location`
-- [ ] `Events` display a countdown showing the time remaining before that event and appears with different formatting when the event has passed
+- [x] An additional page shows all possible `Events` that the user can sort and filter by `Location`
+- [x] `Events` display a countdown showing the time remaining before that event and appears with different formatting when the event has passed
 
 The following **additional** features are implemented:
 
@@ -33,16 +33,21 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
+
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![ezgif-3-e39d1357f0](https://github.com/user-attachments/assets/b0b7588e-ce6d-416c-a2ec-69b7f045456e)
 
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  GIF tool here
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+
+![ezgif-3-0361401754](https://github.com/user-attachments/assets/6460a3c5-2f80-418d-add9-ac370339c685)
+
+
+Video Walkthrough: https://drive.google.com/file/d/1cfhkOiHvlycCCDOZyFCPjBIldYNLCdjB/view?usp=sharing
+
+
+![ezgif-3-1e07fd9d50](https://github.com/user-attachments/assets/8429dcdd-cda3-4161-97ed-cbbcaee9b1c1)
+
+GIF created with ezgif
 
 ## Notes
 
