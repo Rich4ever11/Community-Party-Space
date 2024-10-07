@@ -36,6 +36,11 @@ The following **additional** features are implemented:
 
 Here's a gif walkthrough of implemented required features:
 
+![ezgif-3-e39d1357f0](https://github.com/user-attachments/assets/b0b7588e-ce6d-416c-a2ec-69b7f045456e)
+
+
+![ezgif-3-0361401754](https://github.com/user-attachments/assets/6460a3c5-2f80-418d-add9-ac370339c685)
+
 
 Here's a video walkthrough of implemented required features: https://drive.google.com/file/d/1cfhkOiHvlycCCDOZyFCPjBIldYNLCdjB/view?usp=sharing
 
