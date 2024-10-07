@@ -14,7 +14,7 @@ The following **required** functionality is completed:
 
 - [x] **The web app uses React to display data from the API**
 - [x] **The web app is connected to a PostgreSQL database, with an appropriately structured Events table**
-  - [ ] **NOTE: Your GIF or a screenshot added to this README must include a view of your Railway database that shows the contents of the table used by your app**
+  - [x] **NOTE: Your GIF or a screenshot added to this README must include a view of your Railway database that shows the contents of the table used by your app**
 - [x] **The web app displays the title of the app**
 - [x] **A visual interface allows the user to select a Location they would like to view**
 - [x] **Clicking on a Location shows a list of all items from the Events table that corresponds to that Location**
@@ -34,21 +34,20 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 
-Here's a gif walkthrough of implemented required features:
+Here's a walkthrough of implemented required features:
 
-GIF Walkthrough Part 1
 ![ezgif-3-e39d1357f0](https://github.com/user-attachments/assets/b0b7588e-ce6d-416c-a2ec-69b7f045456e)
 
 
-GIF Walkthrough Part 2
 ![ezgif-3-0361401754](https://github.com/user-attachments/assets/6460a3c5-2f80-418d-add9-ac370339c685)
 
 
-Here's a video walkthrough of implemented required features: https://drive.google.com/file/d/1cfhkOiHvlycCCDOZyFCPjBIldYNLCdjB/view?usp=sharing
+Video Walkthrough: https://drive.google.com/file/d/1cfhkOiHvlycCCDOZyFCPjBIldYNLCdjB/view?usp=sharing
 
 
-GIF created with ...  GIF tool here
+![ezgif-3-1e07fd9d50](https://github.com/user-attachments/assets/8429dcdd-cda3-4161-97ed-cbbcaee9b1c1)
 
+GIF created with ezgif
 
 ## Notes
 
