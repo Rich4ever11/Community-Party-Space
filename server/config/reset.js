@@ -4,7 +4,7 @@ import { events } from "../data/eventData.js";
 
 export const createLocationTable = async () => {
   const createTableQuery = `
-    DROP TABLE IF EXISTS location;
+    DROP TABLE IF EXISTS location CASCADE;
 
     CREATE TABLE IF NOT EXISTS location (
         location_id SERIAL PRIMARY KEY,
@@ -28,8 +28,6 @@ export const createLocationTable = async () => {
 };
 
 const seedLocationTable = async () => {
-  await createLocationTable();
-
   locations.forEach((location) => {
     const insertQuery = {
       text: "INSERT INTO location (name, description, street_name, city, postal_code, country, longitude, latitude) VALUES ($1, $2, $3, $4, $5, $6, $7, $8)",
@@ -105,6 +103,7 @@ const seedEventTable = async () => {
   });
 };
 
+// createEventTable();
+// createLocationTable();
 // seedLocationTable();
-createEventTable();
-seedEventTable();
+// seedEventTable();

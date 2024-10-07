@@ -7,8 +7,8 @@ export const locations = [
     city: "	Minneapolis",
     postal_code: "55403",
     country: "United States",
-    longitude: 93.27594,
-    latitude: 44.978,
+    longitude: 44.978,
+    latitude: -93.27594,
   },
   {
     name: "9:30 Club",
@@ -30,7 +30,7 @@ export const locations = [
     postal_code: "90068",
     country: "United States",
     longitude: 34.1122,
-    latitude: 118.3391,
+    latitude: -118.3391,
   },
   {
     name: "Brooklyn Steel",
@@ -41,7 +41,7 @@ export const locations = [
     postal_code: "90068",
     country: "United States",
     longitude: 40.719358,
-    latitude: 73.938671,
+    latitude: -73.938671,
   },
   {
     name: "Leader Bank Pavilion",
