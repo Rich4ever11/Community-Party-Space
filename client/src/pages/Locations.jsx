@@ -21,7 +21,7 @@ const Locations = () => {
       {locations.map((location) => (
         <div id="venue4button" className="venue4-button-overla">
           <div
-            class="max-w-sm bg-white rounded-lg shadow dark:bg-gray-800 "
+            class="max-w-sm bg-white rounded-lg shadow dark:bg-gray-800"
             style={{ textShadow: "2px 2px 4px black" }}
           >
             <a href="#">

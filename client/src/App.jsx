@@ -37,14 +37,14 @@ const App = () => {
           <Link
             to="/"
             role="button"
-            className=" bg-black rounded-lg hover:bg-blue-950 focus:ring-blue-300 dark:bg-black dark:focus:ring-blue-800"
+            className=" bg-black rounded-lg hover:bg-blue-950 focus:ring-blue-300 dark:bg-black dark:focus:ring-blue-800 border-2"
           >
             Home
           </Link>
           <Link
             to="/events"
             role="button"
-            className=" bg-black rounded-lg hover:bg-blue-950 focus:ring-blue-300 dark:bg-black dark:focus:ring-blue-800"
+            className=" bg-black rounded-lg hover:bg-blue-950 focus:ring-blue-300 dark:bg-black dark:focus:ring-blue-800 border-2"
           >
             Events
           </Link>
