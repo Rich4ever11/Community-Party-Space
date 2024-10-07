@@ -56,10 +56,12 @@ export default function Events() {
       <div className="flex justify-center">
         <div class="flex w-full max-w-lg ">
           <div class="relative w-full">
-            <label class="block mb-1 text-sm text-white">Location</label>
+            <label class="block mb-1 text-sm text-white font-thin">
+              Search By Location
+            </label>
 
             <select
-              class="w-full bg-black text-white text-sm border border-cyan-200 rounded pl-3 pr-8 py-2 transition duration-300 ease focus:outline-none focus:border-cyan-400 hover:border-cyan-400 shadow-sm focus:shadow-md appearance-none cursor-pointer"
+              class="w-full bg-black border-2 text-white text-sm border-cyan-200 rounded pl-3 pr-8 py-2 transition duration-300 ease focus:outline-none focus:border-cyan-400 hover:border-cyan-400 shadow-sm focus:shadow-md appearance-none cursor-pointer"
               onChange={handleSelectDropdown}
             >
               {locations.map((location) => (
@@ -78,9 +80,9 @@ export default function Events() {
         </div>
       </div>
 
-      <main className="flex flex-wrap justify-center py-8 space-x-4 space-y-2">
+      <main className="flex flex-wrap justify-center py-8">
         {filteredEvents.map((event) => (
-          <div class="max-w-sm p-6 bg-black border border-gray-200 rounded-lg shadow dark:border-gray-700">
+          <div class="transition duration-700 ease-in-out m-4 max-w-sm p-8 bg-black hover:bg-cyan-800 border-cyan-200 rounded-lg shadow dark:border-cyan-100 border-2">
             <div className="flex justify-center">
               <img
                 class="w-32 h-24 mb-3 rounded-full shadow-lg"

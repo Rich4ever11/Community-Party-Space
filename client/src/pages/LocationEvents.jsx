@@ -102,12 +102,12 @@ const LocationEvents = (props) => {
         </MapContainer>
       )}
 
-      <main className="flex flex-wrap justify-center py-8 space-x-4">
+      <main className="flex flex-wrap justify-center py-8">
         {events.map((event) => (
-          <div class="max-w-sm p-6 bg-black border border-gray-200 rounded-lg shadow dark:border-gray-700">
-            <div className="flex justify-center">
+          <div class="transition duration-700 ease-in-out m-4 max-w-sm p-8 bg-black hover:bg-cyan-950 border-cyan-200 rounded-lg shadow dark:border-cyan-100 border-2">
+            <div className="flex justify-center ">
               <img
-                class="w-32 h-24 mb-3 rounded-full shadow-lg"
+                class="w-32 h-24 mb-3 rounded-full shadow-lg "
                 src="/public/assets/event.avif"
                 alt="Bonnie image"
               />
