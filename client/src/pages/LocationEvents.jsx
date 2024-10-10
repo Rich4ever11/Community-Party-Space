@@ -112,7 +112,7 @@ const LocationEvents = (props) => {
             </div>
 
             <a className="flex justify-center">
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h5 class="mb-2 text-4xl font-thin tracking-tight text-gray-900 dark:text-white">
                 {event.name}
               </h5>
             </a>
