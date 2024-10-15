@@ -31,21 +31,19 @@ The following **additional** features are implemented:
 - [x] Improved on the UI/Front End using Tailwind CSS 
 - [x] Added a leaflet map to show exact coordinates to the party 
 
-## Video Walkthrough
+## [Video Walkthrough](https://drive.google.com/file/d/1cfhkOiHvlycCCDOZyFCPjBIldYNLCdjB/view?usp=sharing)
 
 
 Here's a walkthrough of implemented required features:
 
-![ezgif-3-e39d1357f0](https://github.com/user-attachments/assets/b0b7588e-ce6d-416c-a2ec-69b7f045456e)
-
-
-![ezgif-3-0361401754](https://github.com/user-attachments/assets/6460a3c5-2f80-418d-add9-ac370339c685)
-
-
 Video Walkthrough: https://drive.google.com/file/d/1cfhkOiHvlycCCDOZyFCPjBIldYNLCdjB/view?usp=sharing
 
 
-![ezgif-3-1e07fd9d50](https://github.com/user-attachments/assets/8429dcdd-cda3-4161-97ed-cbbcaee9b1c1)
+![ezgif-1-2c700582cb](https://github.com/user-attachments/assets/061f4238-8c31-4810-a166-dc0c63d4f800)
+
+
+![ezgif-1-0901145c98](https://github.com/user-attachments/assets/af9f60f5-6299-445a-9f02-03ad18168b15)
+
 
 GIF created with ezgif
 
